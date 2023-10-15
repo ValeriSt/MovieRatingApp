@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:MovieRatingApp.Model"
+             xmlns:viewmodel="clr-namespace:MovieRatingApp.ViewModel"
+             xmlns:controls="clr-namespace:MovieRatingApp.Controls"
+             x:DataType="viewmodel:MovieViewModel"
+             Title="{Binding Title}"
+             x:Class="MovieRatingApp.View.MainPage">
+
+    <Grid ColumnDefinitions="*,*"
+          ColumnSpacing="5"
+          RowDefinitions="*, Auto"
+          RowSpacing="0">
+
+        <RefreshView Grid.ColumnSpan="2"
+                     Command="{Binding GetMoviesCommand}"
+                     IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView Background="LightBlue" 
+                        ItemsSource="{Binding Movies}"
+                        SelectionMode="None">
+                <CollectionView.EmptyView>
+                    <StackLayout Padding="100" >
+                        <Image 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="200"
+                        HeightRequest="200"
+                        Source="nodata.png"/>
+                        <Label Text="Click on show movies button to see top rated movies"
+                               FontSize="20"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="Black"/>
+                    </StackLayout>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Movie">
+                        <Grid Padding="10, 4, 10, 4">
+                            <Frame HeightRequest="125"
+                               Padding="0">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                      Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MovieViewModel}}, Path=GoToDetailsCommand}"/>
+                                </Frame.GestureRecognizers>
+                                <Grid Padding="0"
+                                  ColumnDefinitions="125,*">
+                                    <Image Aspect="AspectFill"
+                                            Source="{Binding ImageURL}"
+                                            WidthRequest="125"
+                                            HeightRequest="125"/>
+
+                                    <VerticalStackLayout Grid.Column="1"
+                                                     Padding="10"
+                                                     VerticalOptions="Center">
+                                        <Label Text="{Binding Title}"
+                                           FontSize="Large"/>
+                                        <Label Text="{Binding Year}"
+                                           FontSize="Medium"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+
+        <Button Text="Show Movies"
+                Command="{Binding GetMoviesCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="8"
+                />
+        <Button Text="Logout"
+                Command="{Binding LogoutUserCommand}"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="8"/>
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"/>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,1 @@
+C:\Users\Valeri\Desktop\Progress\MovieRatingApp\MovieRatingApp\MovieRatingApp.csproj;x64

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovieRatingApp.View.UserRegisterPage"
+             xmlns:model="clr-namespace:MovieRatingApp.Model"
+            xmlns:viewmodel="clr-namespace:MovieRatingApp.ViewModel"
+            x:DataType="viewmodel:UserRegisterViewModel"
+            Title="Welcome">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Register" FontSize="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+            <Entry Placeholder="Username" PlaceholderColor="Black" Text="{Binding Username}" HorizontalOptions="CenterAndExpand" WidthRequest="300" BackgroundColor="LightGray" TextColor="Black" />
+            <Entry Placeholder="Password" PlaceholderColor="Black" IsPassword="True" Text="{Binding Password}" HorizontalOptions="CenterAndExpand" WidthRequest="300" BackgroundColor="LightGray" TextColor="Black"/>
+
+            <Button Text="Register" Command="{Binding RegisterCommand}" HorizontalOptions="CenterAndExpand" WidthRequest="300"/>
+            <Label Text="{Binding ErrorMessage}" TextColor="Red" HorizontalOptions="Center" FontSize="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

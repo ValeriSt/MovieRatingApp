@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MovieRatingApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MovieRatingApp.View"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Movie Rate"
+        ContentTemplate="{DataTemplate local:UserLoginPage}"
+        Route="UserLogin" />
+
+
+    <FlyoutItem Title="Main Page" Route="MainPage" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="Main Page">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Login Page" Route="UserLoginPage" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="Login">
+            <ShellContent ContentTemplate="{DataTemplate local:UserLoginPage}" />
+        </Tab>
+    </FlyoutItem>
+</Shell>

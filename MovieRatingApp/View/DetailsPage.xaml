@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovieRatingApp.View.DetailsPage"
+             xmlns:viewmodel="clr-namespace:MovieRatingApp.ViewModel"
+              xmlns:controls="clr-namespace:MovieRatingApp.Controls"
+             x:DataType="viewmodel:DetailsViewModel"
+             Title="{Binding Movie.Title}">
+    <!--Shell.PresentationMode="Modal"-->
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid ColumnDefinitions="*, Auto, *"
+                  RowDefinitions="160, Auto">
+                <BoxView Color="#ff7b68ee"
+                         Grid.ColumnSpan="3"
+                         HeightRequest="160"
+                         HorizontalOptions="FillAndExpand"/>
+                <Frame Grid.RowSpan="2"
+                       Grid.Column="1"
+                       HeightRequest="180"
+                       WidthRequest="180"
+                       CornerRadius="90"
+                       HorizontalOptions="Center"
+                       IsClippedToBounds="True"
+                       Padding="0"
+                       Margin="0,80,0,0">
+                    <Image Aspect="AspectFill"
+                           HeightRequest="180"
+                           WidthRequest="180"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Source="{Binding Movie.ImageURL}"/>
+                </Frame>
+            </Grid>
+            <VerticalStackLayout Padding="10" Spacing="10">
+                <Label Text="{Binding Movie.Title}"
+                       FontSize="26"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                <Label Text="{Binding Movie.Description}"
+                       FontSize="22"/>
+                <Label Text="{Binding Movie.Year, StringFormat='Released: {0}'}"
+                       FontSize="20"/>
+                <Label Text="{Binding Movie.Genres, StringFormat='Genres: {0}'}"
+                       FontSize="20"/>
+                <Label Text="Your rating:"
+                    FontSize="20"/> 
+                <controls:CustomRatingControl Amount="5"
+                    CurrentValue="{Binding UserRating.Rating, Mode=TwoWay}"
+                    AccentColor="Black"
+                    StarSize="29">
+                </controls:CustomRatingControl>
+                <Label Text="Average rating:"
+                    FontSize="20"/>
+                <controls:CustomRatingControl Amount="5"
+                CurrentValue="{Binding AvgRating, Mode=TwoWay}"
+                AccentColor="Black"
+                StarSize="29">      
+                </controls:CustomRatingControl>
+                <Button Text="Rate here" Command="{Binding ShowPopupCommand}">
+                    <Button.Triggers>
+                        <DataTrigger TargetType="Button" Binding="{Binding IsRated}" Value="True">
+                            <Setter Property="IsVisible" Value="False" />
+                        </DataTrigger>
+                    </Button.Triggers>
+                </Button>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

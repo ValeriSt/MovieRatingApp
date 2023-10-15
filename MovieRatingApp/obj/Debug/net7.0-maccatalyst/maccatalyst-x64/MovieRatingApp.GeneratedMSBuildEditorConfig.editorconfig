@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovieRatingApp
+build_property.ProjectDir = C:\Users\Valeri\Desktop\Progress\MovieRatingApp\MovieRatingApp\
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/View/DetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.View.DetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\DetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\DetailsPage.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/View/RateMoviePopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.View.RateMoviePopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RateMoviePopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RateMoviePopup.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/View/UserLoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.View.UserLoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\UserLoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\UserLoginPage.xaml
+
+[C:/Users/Valeri/Desktop/Progress/MovieRatingApp/MovieRatingApp/View/UserRegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovieRatingApp.View.UserRegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\UserRegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\UserRegisterPage.xaml
