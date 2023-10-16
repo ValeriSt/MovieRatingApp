@@ -8,13 +8,33 @@
             Title="Welcome">
     <ContentPage.Content>
         <StackLayout Margin="20">
-            <Label Text="Register" FontSize="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label Text="Register" 
+                   FontSize="Large" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="CenterAndExpand" />
 
-            <Entry Placeholder="Username" PlaceholderColor="Black" Text="{Binding Username}" HorizontalOptions="CenterAndExpand" WidthRequest="300" BackgroundColor="LightGray" TextColor="Black" />
-            <Entry Placeholder="Password" PlaceholderColor="Black" IsPassword="True" Text="{Binding Password}" HorizontalOptions="CenterAndExpand" WidthRequest="300" BackgroundColor="LightGray" TextColor="Black"/>
+            <Entry Placeholder="Username" 
+                   PlaceholderColor="Black" 
+                   Text="{Binding Username}" 
+                   HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="300" 
+                   TextColor="Black" />
+            <Entry Placeholder="Password" 
+                   PlaceholderColor="Black" 
+                   IsPassword="True" 
+                   Text="{Binding Password}" 
+                   HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="300" 
+                   TextColor="Black"/>
 
-            <Button Text="Register" Command="{Binding RegisterCommand}" HorizontalOptions="CenterAndExpand" WidthRequest="300"/>
-            <Label Text="{Binding ErrorMessage}" TextColor="Red" HorizontalOptions="Center" FontSize="20"/>
+            <Button Text="Register" 
+                    Command="{Binding RegisterCommand}" 
+                    HorizontalOptions="CenterAndExpand" 
+                    WidthRequest="300"/>
+            <Label Text="{Binding ErrorMessage}" 
+                   TextColor="Red" 
+                   HorizontalOptions="Center" 
+                   FontSize="20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

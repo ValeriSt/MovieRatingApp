@@ -20,6 +20,5 @@ namespace MovieRatingApp.Model
 
         public string ImageURL { get; set; }
 
-        //public double Rating { get; set; }
     }
 }

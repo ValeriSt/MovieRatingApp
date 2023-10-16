@@ -1,1 +1,1 @@
-C:\Users\Valeri\Desktop\Progress\MovieRatingApp\MovieRatingApp\MovieRatingApp.csproj;x64
+C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\MovieRatingApp.csproj;x64

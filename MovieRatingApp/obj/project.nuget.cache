@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IuGaG5mAvMqBT1E+ksNRUhdHsoBVh+ssRDkURkATfIr5Q29nwR194zBCmnj+tcRaWIbFqb9CA+6E6i43qgSkEw==",
+  "dgSpecHash": "nVyB2wLZ8OMwypHrJRDKEBgQJ3vcEZVxbyK+CnEMTV/xvSmGJTUf0I32mi02zoBSNowETvV0Mxkn9JMvCVfeYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Valeri\\Desktop\\Progress\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp.csproj",
+  "projectFilePath": "C:\\Users\\Valeri\\Documents\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valeri\\.nuget\\packages\\communitytoolkit.maui\\6.0.0\\communitytoolkit.maui.6.0.0.nupkg.sha512",
     "C:\\Users\\Valeri\\.nuget\\packages\\communitytoolkit.maui.core\\6.0.0\\communitytoolkit.maui.core.6.0.0.nupkg.sha512",

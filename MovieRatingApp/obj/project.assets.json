@@ -26198,11 +26198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valeri\\Desktop\\Progress\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp.csproj",
+      "projectUniqueName": "C:\\Users\\Valeri\\Documents\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp.csproj",
       "projectName": "MovieRatingApp",
-      "projectPath": "C:\\Users\\Valeri\\Desktop\\Progress\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp.csproj",
+      "projectPath": "C:\\Users\\Valeri\\Documents\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp.csproj",
       "packagesPath": "C:\\Users\\Valeri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valeri\\Desktop\\Progress\\MovieRatingApp\\MovieRatingApp\\obj\\",
+      "outputPath": "C:\\Users\\Valeri\\Documents\\MovieRatingApp\\MovieRatingApp\\MovieRatingApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

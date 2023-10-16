@@ -30,10 +30,6 @@ namespace MovieRatingApp.ViewModel
             this.userRatingService = userRatingService;
         }
 
-
-
-
-        
         public TrackMovie TrackMovie
         {
             get { return trackmovie; }

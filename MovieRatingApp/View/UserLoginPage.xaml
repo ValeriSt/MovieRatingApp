@@ -9,22 +9,23 @@
 
     <ContentPage.Content>
         <StackLayout Margin="20">
-            <Label Text="Welcome" FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            <Label Text="Welcome" 
+                   FontSize="Large" 
+                   HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="CenterAndExpand" />
 
             <Entry Placeholder="Username" 
                    PlaceholderColor="Black"
                    Text="{Binding Username}" 
                    HorizontalOptions="Center" 
                    WidthRequest="300" 
-                   BackgroundColor="LightGray" 
                    TextColor="Black"/>
             <Entry Placeholder="Password" 
                    PlaceholderColor="Black"
                    IsPassword="True" 
                    Text="{Binding Password}" 
                    HorizontalOptions="CenterAndExpand" 
-                   WidthRequest="300" 
-                   BackgroundColor="LightGray" 
+                   WidthRequest="300"
                    TextColor="Black"/>
 
             <Button Text="Login" Command="{Binding LoginCommand}" WidthRequest="300"/>
@@ -39,7 +40,10 @@
                 </Label.GestureRecognizers>
             </Label>
 
-            <Label Text="{Binding ErrorMessage}" TextColor="Red" HorizontalOptions="Center" FontSize="20"/>
+            <Label Text="{Binding ErrorMessage}" 
+                   TextColor="Red" 
+                   HorizontalOptions="Center" 
+                   FontSize="20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

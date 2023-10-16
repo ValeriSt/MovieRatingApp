@@ -36,7 +36,7 @@ namespace MovieRatingApp.ViewModel
         async Task GoToDetailsAsync(Movie movie)
         {
             if (movie is null) return;
-            var userRatingList = await userRatingService.GetUserRating();
+            List<UserRating> userRatingList = await userRatingService.GetUserRating();
             var userRating = userRatingList.FirstOrDefault(x => x.MovieId == movie.Id && x.UserId == Utility.CurrentUser.Id);
             var movieRatings = userRatingList.FindAll(x => x.MovieId == movie.Id);
             var avgRating = 0.0;

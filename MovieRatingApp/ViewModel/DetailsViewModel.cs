@@ -61,7 +61,7 @@ namespace MovieRatingApp.ViewModel
                 Movie = Movie,
                 TrackMovie = trackMovie
             };
-            var popup = new RateMoviePopup(viewModel);
+            RateMoviePopup popup = new RateMoviePopup(viewModel);
             
             Shell.Current.CurrentPage.ShowPopup(popup);
         }
@@ -69,7 +69,7 @@ namespace MovieRatingApp.ViewModel
         public async void MovieChanged(object sender, EventArgs e)
         {
             UserRatingService userRatingService = new UserRatingService();
-            var userRatingList = await userRatingService.GetUserRating();
+            List<UserRating> userRatingList = await userRatingService.GetUserRating();
             UserRating = userRatingList.FirstOrDefault(x => x.MovieId == Movie.Id && x.UserId == Utility.CurrentUser.Id);
 
             var movieRatings = userRatingList.FindAll(x => x.MovieId == Movie.Id);
