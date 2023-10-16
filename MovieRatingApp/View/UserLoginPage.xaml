@@ -4,7 +4,8 @@
              xmlns:model="clr-namespace:MovieRatingApp.Model"
              xmlns:viewmodel="clr-namespace:MovieRatingApp.ViewModel"
              x:DataType="viewmodel:UserLoginViewModel"
-             x:Class="MovieRatingApp.View.UserLoginPage">
+             x:Class="MovieRatingApp.View.UserLoginPage"
+             Background="Azure">
 
 
     <ContentPage.Content>
@@ -19,19 +20,22 @@
                    Text="{Binding Username}" 
                    HorizontalOptions="Center" 
                    WidthRequest="300" 
+                   FontSize="18"
                    TextColor="Black"/>
             <Entry Placeholder="Password" 
                    PlaceholderColor="Black"
                    IsPassword="True" 
                    Text="{Binding Password}" 
                    HorizontalOptions="CenterAndExpand" 
+                   FontSize="18"
                    WidthRequest="300"
                    TextColor="Black"/>
 
-            <Button Text="Login" Command="{Binding LoginCommand}" WidthRequest="300"/>
+            <Button Text="Login" Command="{Binding LoginCommand}" WidthRequest="300" FontAttributes="Bold" FontSize="20"/>
             <Label Text="Register here!"
                 HorizontalOptions="Center"
-                FontSize="16"
+                FontAttributes="Bold"
+                FontSize="20"
                 BackgroundColor="Transparent"
                 Margin="0,0,0,30">
                 <Label.GestureRecognizers>

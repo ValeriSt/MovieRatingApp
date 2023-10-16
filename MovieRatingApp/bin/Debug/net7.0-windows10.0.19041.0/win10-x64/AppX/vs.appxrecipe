@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-16T10:35:26.508</Modified>
+      <Modified>2023-10-16T12:52:32.092</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-16T10:35:26.219</Modified>
+      <Modified>2023-10-16T12:52:31.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MovieRatingApp.runtimeconfig.json">
       <PackagePath>MovieRatingApp.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MovieRatingApp.dll">
       <PackagePath>MovieRatingApp.dll</PackagePath>
-      <Modified>2023-10-16T10:35:24.345</Modified>
+      <Modified>2023-10-16T12:52:29.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MovieRatingApp.exe</PackagePath>
-      <Modified>2023-10-16T10:35:24.406</Modified>
+      <Modified>2023-10-16T12:52:29.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MovieRatingApp.deps.json">
       <PackagePath>MovieRatingApp.deps.json</PackagePath>
-      <Modified>2023-10-16T10:35:25.851</Modified>
+      <Modified>2023-10-16T12:52:31.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Valeri\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -959,7 +959,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\Resources\Raw\movie.json">
       <PackagePath>movie.json</PackagePath>
-      <Modified>2023-10-15T13:19:37.062</Modified>
+      <Modified>2023-10-16T12:41:11.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Valeri\Documents\MovieRatingApp\MovieRatingApp\MovieRatingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>

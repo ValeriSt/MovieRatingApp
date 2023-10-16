@@ -6,7 +6,8 @@
              xmlns:controls="clr-namespace:MovieRatingApp.Controls"
              x:DataType="viewmodel:MovieViewModel"
              Title="{Binding Title}"
-             x:Class="MovieRatingApp.View.MainPage">
+             x:Class="MovieRatingApp.View.MainPage"
+             BackgroundColor="Azure">
 
     <Grid ColumnDefinitions="*,*"
           ColumnSpacing="5"
@@ -16,7 +17,7 @@
         <RefreshView Grid.ColumnSpan="2"
                      Command="{Binding GetMoviesCommand}"
                      IsRefreshing="{Binding IsRefreshing}">
-            <CollectionView Background="LightBlue" 
+            <CollectionView Background="Azure"
                         ItemsSource="{Binding Movies}"
                         SelectionMode="None">
                 <CollectionView.EmptyView>
@@ -37,7 +38,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Movie">
                         <Grid Padding="10, 4, 10, 4">
-                            <Frame HeightRequest="125"
+                            <Frame HeightRequest="175"
                                Padding="0">
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer CommandParameter="{Binding .}"
@@ -48,15 +49,14 @@
                                     <Image Aspect="AspectFill"
                                             Source="{Binding ImageURL}"
                                             WidthRequest="125"
-                                            HeightRequest="125"/>
-
+                                            HeightRequest="175"/>
                                     <VerticalStackLayout Grid.Column="1"
                                                      Padding="10"
                                                      VerticalOptions="Center">
                                         <Label Text="{Binding Title}"
-                                           FontSize="Large"/>
+                                           FontSize="25" FontAttributes="Bold"/>
                                         <Label Text="{Binding Year}"
-                                           FontSize="Medium"/>
+                                           FontSize="19"/>
                                     </VerticalStackLayout>
                                 </Grid>
                             </Frame>
@@ -72,12 +72,15 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 Margin="8"
-                />
+                FontSize="18"
+                FontAttributes="Bold"/>
         <Button Text="Logout"
                 Command="{Binding LogoutUserCommand}"
                 Grid.Row="1"
                 Grid.Column="1"
-                Margin="8"/>
+                Margin="8"
+                FontSize="18"
+                FontAttributes="Bold"/>
         <ActivityIndicator IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
                            HorizontalOptions="FillAndExpand"

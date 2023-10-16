@@ -2,65 +2,65 @@
   {
     "Id": 1,
     "Title": "Avatar",
-    "Year": "2009",
+    "Year": "December 17, 2009",
     "Description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-    "Genres": "Action, Adventure, Fantasy",
-    "ImageURL": "https://filmartgallery.com/cdn/shop/files/Avatar-Vintage-Movie-Poster-Original-1-Sheet-27x41_12062dd4-dc76-44d6-bf8e-bc444b450a47.jpg?v=1685163796",
+    "Genres": "Action Adventure Fantasy",
+    "ImageURL": "https://filmartgallery.com/cdn/shop/files/Avatar-Vintage-Movie-Poster-Original-1-Sheet-27x41_12062dd4-dc76-44d6-bf8e-bc444b450a47.jpg?v=1685163796"
   },
   {
     "Id": 2,
     "Title": "The Amazing Spider-Man",
-    "Year": "2012",
+    "Year": "July 3, 2012",
     "Description": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
-    "Genres": "Action, Adventure, Sci-Fi",
+    "Genres": "Action Adventure Sci-Fi",
     "ImageURL": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_.jpg"
   },
   {
     "Id": 3,
     "Title": "300",
-    "Year": "2006",
+    "Year": "March 9, 2007",
     "Description": "The plot revolves around King Leonidas, who leads 300 Spartans into battle against the Persian God-King Xerxes and his invading army of more than 300,000 soldiers.",
-    "Genres": "Action, Drama, Fantasy",
+    "Genres": "Action Drama Fantasy",
     "ImageURL": "https://m.media-amazon.com/images/I/811XNNbIaML._AC_UF894,1000_QL80_.jpg"
   },
   {
     "Id": 4,
     "Title": "The Avengers",
-    "Year": "2012",
+    "Year": "May 1, 2012",
     "Description": "",
-    "Genres": "Action, Sci-Fi, Thriller",
+    "Genres": "Action Sci-Fi Thriller",
     "ImageURL": "https://m.media-amazon.com/images/I/81SIVdnkUmL.jpg"
   },
   {
     "Id": 5,
     "Title": "The Wolf of Wall Street",
-    "Year": "2013",
+    "Year": "December 25, 2013",
     "Description": "",
-    "Genres": "Biography, Comedy, Crime",
+    "Genres": "Biography Comedy Crime",
     "ImageURL": "https://hodinkee-production.s3.amazonaws.com/uploads/images/1eb2e125-27f6-4a61-9cfc-b2158e3b34ea/2AD4Y39.jpg"
   },
   {
     "Id": 6,
     "Title": "Interstellar",
-    "Year": "2014",
+    "Year": "November 7, 2014",
     "Description": "Interstellar is about Earth’s last chance to find a habitable planet before a lack of resources causes the human race to go extinct. The film’s protagonist is Cooper (Matthew McConaughey), a former NASA pilot who is tasked with leading a mission through a wormhole to find a habitable planet in another galaxy.",
-    "Genres": "Adventure, Drama, Sci-Fi",
+    "Genres": "Adventure Drama Sci-Fi",
     "ImageURL": "https://www.originalfilmart.com/cdn/shop/products/interstellar_2014_advance_original_film_art_682852f2-23f6-46de-a1db-4029d5b6f0b4_5000x.jpg?v=1574284010"
   },
   {
     "Id": 7,
     "Title": "Game of Thrones",
-    "Year": "2011–2019",
+    "Year": "April 17, 2011 – May 19, 2019",
     "Description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for a millennia.",
-    "Genres": "Adventure, Drama, Fantasy",
+    "Genres": "Adventure Drama Fantasy",
     "ImageURL": "https://cdn.europosters.eu/image/750/posters/game-of-thrones-daenerys-for-the-throne-i72507.jpg"
   },
   {
     "Id": 8,
     "Title": "Oppenheimer",
-    "Year": "2023",
+    "Year": "July 21, 2023",
     "Description": "Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film chronicles the career of Oppenheimer, with the story predominantly focusing on his studies, his direction of the Manhattan Project during World War II, and his eventual fall from grace due to his 1954 security hearing.",
-    "Genres": "Biography, Drama, History",
+    "Genres": "Biography Drama History",
     "ImageURL": "https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900"
   }
 ]

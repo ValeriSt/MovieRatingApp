@@ -13,14 +13,14 @@
           WidthRequest="350"
           HeightRequest="150">
         <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="0" HorizontalOptions="Start" VerticalOptions="Center" />
-            <Slider Minimum="0" Maximum="5" Value="{Binding Rating}" WidthRequest="250" />
-            <Label Text="5" HorizontalOptions="End" VerticalOptions="Center" />
+            <Label Text="0" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
+            <Slider Minimum="0" Maximum="5" Value="{Binding Rating}" WidthRequest="250"/>
+            <Label Text="5" HorizontalOptions="End" VerticalOptions="Center"  FontSize="12"/>
         </StackLayout>
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-            <Button Text="Close" Clicked="OnCloseClicked" Margin="8" />
-            <Button Text="Save" Command="{Binding RateCommand}" Margin="8" Clicked="OnSaveClicked" />
+            <Button Text="Close" Clicked="OnCloseClicked" Margin="8" FontSize="18" FontAttributes="Bold"/>
+            <Button Text="Save" Command="{Binding RateCommand}" Margin="8" Clicked="OnSaveClicked" FontSize="18" FontAttributes="Bold" />
         </StackLayout>
     </Grid>
 </toolkit:Popup>
